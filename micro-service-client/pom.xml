@@ -20,8 +20,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>motan-demo-client</artifactId>
-    <name>motan-demo-client</name>
+    <artifactId>motan-service-client</artifactId>
+    <name>motan-service-client</name>
     <version>1.1.0</version>
     <groupId>com.jcgroup</groupId>
     <properties>

@@ -16,14 +16,8 @@
 
 package com.weibo.motan.demo.client;
 
-import com.weibo.api.motan.config.ProtocolConfig;
 import com.weibo.api.motan.config.RefererConfig;
-import com.weibo.api.motan.config.RegistryConfig;
-import com.weibo.motan.demo.service.BookService;
-import com.weibo.motan.demo.service.MotanDemoService;
-import com.weibo.motan.demo.service.UserService;
-
-import java.util.HashMap;
+import com.jcgroup.BookService;
 
 public class MotanApiClientDemo extends BasicService{
 

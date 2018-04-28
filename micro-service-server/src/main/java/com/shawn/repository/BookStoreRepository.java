@@ -1,8 +1,8 @@
 package com.shawn.repository;
 
 
-import com.weibo.motan.demo.service.model.BookStore;
-import com.weibo.motan.demo.service.model.BookStoreWithBooks;
+import com.jcgroup.model.BookStore;
+import com.jcgroup.model.BookStoreWithBooks;
 
 import java.util.List;
 

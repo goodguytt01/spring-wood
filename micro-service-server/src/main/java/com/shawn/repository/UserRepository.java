@@ -1,7 +1,7 @@
 package com.shawn.repository;
 
 
-import com.weibo.motan.demo.service.model.User;
+import com.jcgroup.model.User;
 
 import java.util.List;
 

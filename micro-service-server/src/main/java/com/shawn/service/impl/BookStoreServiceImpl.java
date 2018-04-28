@@ -2,11 +2,10 @@ package com.shawn.service.impl;
 
 import com.shawn.repository.BookStoreRepository;
 import com.weibo.api.motan.config.springsupport.annotation.MotanService;
-import com.weibo.motan.demo.service.BookStoreService;
-import com.weibo.motan.demo.service.model.BookStore;
-import com.weibo.motan.demo.service.model.BookStoreWithBooks;
+import com.jcgroup.BookStoreService;
+import com.jcgroup.model.BookStore;
+import com.jcgroup.model.BookStoreWithBooks;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;

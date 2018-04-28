@@ -4,11 +4,10 @@ import com.shawn.repository.BookRepository;
 
 import com.shawn.util.PageUtil;
 import com.weibo.api.motan.config.springsupport.annotation.MotanService;
-import com.weibo.motan.demo.service.BookService;
-import com.weibo.motan.demo.service.model.Book;
-import com.weibo.motan.demo.service.model.BookWithBookStore;
+import com.jcgroup.BookService;
+import com.jcgroup.model.Book;
+import com.jcgroup.model.BookWithBookStore;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

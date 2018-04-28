@@ -2,13 +2,12 @@ package com.shawn.service.impl;
 
 import com.shawn.repository.UserRepository;
 import com.weibo.api.motan.config.springsupport.annotation.MotanService;
-import com.weibo.motan.demo.service.UserService;
-import com.weibo.motan.demo.service.dto.CustomUserDetails;
-import com.weibo.motan.demo.service.model.User;
+import com.jcgroup.UserService;
+import com.jcgroup.dto.CustomUserDetails;
+import com.jcgroup.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 

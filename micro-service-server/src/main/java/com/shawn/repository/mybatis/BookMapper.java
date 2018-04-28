@@ -1,7 +1,7 @@
 package com.shawn.repository.mybatis;
 
 import com.shawn.repository.BookRepository;
-import com.weibo.motan.demo.service.model.Book;
+import com.jcgroup.model.Book;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
